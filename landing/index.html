@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to The Island Social Network, where experience becomes real">
+    <meta name="author" content="The Island">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon_theisland.ico">
+
+    <title>The Island · Landing template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/base-styles.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="../css/custom-styles.css" rel="stylesheet">
+	<link href="../css/landing.css" rel="stylesheet">
+</head>
+
+<body data-grid-framework="b3" data-grid-color="red" data-grid-opacity="0.1" data-grid-zindex="999" data-grid-gutterwidth="20px" data-grid-nbcols="12">
+<!--
+Framework codes: b3 (Bootstrap 3), bo (Bootstrap 2 fixed), bf (Bootstrap 2 fluid), f4 (Foundation 4 & 5), f3 (Foundation 3), f2 (Foundation 2).
+Note 1: 'Gutter width' parameter only applies to gutterless grid systems (Bootstrap 3, Foundation 4 & 5).
+Note 2: 'Nb cols' parameter for Bootstrap only.
+-->
+
+	
+	<div id="wrap">
+		<div id="clouds"></div>
+		
+		<!-- 
+			RESPONSIVE HEADER MENU
+			================================================================== -->
+	    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	        <div class="container">
+	            <div class="navbar-header">
+	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	                    <span class="sr-only">Toggle navigation</span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                    <span class="icon-bar"></span>
+	                </button>
+	                
+	                <a class="navbar-brand logo-nav" href="#">
+	                    <img src="../img/theisland_splash_head_logo.png">
+	                </a>
+	            </div>
+
+	            <!-- Collect the nav links, forms, and other content for toggling -->
+	            <div class="collapse navbar-collapse navbar-ex1-collapse">
+	                <ul class="nav navbar-nav navbar-right">
+						<li class="dropdown menu-large">
+							<a href="#"  class="dropdown-toggle" data-toggle="dropdown">Register</a>
+						</li>
+	                    <li class="dropdown menu-large">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a>
+		                    <ul class="dropdown-menu megamenu row">
+								<li>
+									
+									<!-- ###login:START### -->
+									<form class="form-horizontal">
+										 <fieldset>
+											 
+											 <div class="col-sm-4 lead text-right">
+												 Already a member&nbsp;?<br/>
+												 Please sign in
+											 </div>
+											 
+											 <div class="col-sm-5">
+												 <div class="form-group">
+													 <!-- Email input-->
+													 <div class="col-md-6">
+														 <input id="email" name="email" type="text" placeholder="example@domain.com" class="form-control input-md" required="">
+														 <span class="help-block">
+															 <input type="checkbox" name="checkbox" id="persistentlogin" value="persistentlogin" checked="checked">
+															 Keep me logged in
+														 </span>
+													 </div>
+													 <!-- Password input-->
+													 <div class="col-md-6">
+														 <input id="passwordinput" name="passwordinput" type="password" placeholder="Password" class="form-control input-md" required="">
+														 <span class="help-block">
+															 <a href="#">Forgot password&nbsp;?</a>
+														 </span>
+													 </div>
+												 </div>
+											 </div>
+											 
+											 <div class="col-sm-3">
+												 <!-- Login button -->
+												 <div class="form-group">
+													 <div class="col-md-4">
+														 <a href="#" id="login" name="login" class="btn-login">
+															 <img src="../img/login-button.png" alt="anchor">
+														 </a>
+													 </div>
+												 </div>
+											 </div>
+										 
+										 </fieldset>
+									 </form>
+									 <!-- ###login:END### -->
+									 
+								 </li>
+							 </ul>
+						 </li>
+					 </ul>
+				 </div>
+				 <!-- /.navbar-collapse -->
+			 
+			 </div>
+			 <!-- /.container -->
+		 </nav>
+		
+		<!-- 
+			PAGE BODY · 12 COLUMNS GRID
+			================================================================== -->
+		<div id="page-body">
+		    <div class="container">
+				
+		        <div id="splash" class="col-lg-12 text-center">
+					<div class="row">
+						<p class="slogan-logo">
+							<img src="../img/theisland_splash_body_logo.png" alt="The Island">
+						</p>
+		                <p class="slogan-baseline">
+							Welcome to the island where experiences become real
+						</p>
+						<p class="slogan-url">
+							www.theisland.is
+						</p>
+					</div>
+				</div>
+				<!-- /#splash -->
+				
+				<div class="row">
+					<div id="groups" class="col-lg-6">
+						<p class="text-center"><img src="img/groups.png" alt="Groups"></p>
+					</div>
+					<div id="business" class="col-lg-6 text-center">
+						<img src="img/three-profiles.png" alt="3 profiles">
+						<p>&nbsp;</p>
+						<div class="row">
+							<div class="col-xs-6">
+								<h4 class="text-right">
+									Three Profiles
+								</h4>
+								<p class="text-right lead">
+									To give you an absolute<br/>
+									privacy control tools,<br/>
+									we offer you the possibility<br/>
+									to create 3 profiles:
+								</p>
+								<p class="text-right">
+									<small><strong>Public</strong> (visible to all)<br/>
+									<strong>Personal</strong> (visible to your friends)<br/>
+									<strong>Business</strong> (visible to your business contacts)</small>
+								</p>
+							</div>
+							<div class="col-xs-6">
+								<h4 class="text-left">
+									Business information
+								</h4>
+								<p class="text-left">
+									<img src="img/business.png" alt="Businesss">
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-md-3">
+							<h4>
+								Contents Islands
+							</h4>
+						</div>
+						<div class="col-md-9">
+							<p>
+								To meet your interests, we created content islands that you will find on the map; the islands are characterized by some special elements: content uniqueness (to avoid dispersion), ease of finding your own content, possibility to meet new people with whom you share the same interests, and the possibility to get visibility within a special environment.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+		    </div>
+		    <!-- /.container -->
+		</div>
+		<!-- /#page-body -->
+		
+		<div id="push"></div>
+	</div>
+	<!-- /#wrap -->
+
+	<!-- 
+		PAGE FOOTER
+		================================================================== -->
+	<footer>
+		<div class="container">
+			<p class="credit">
+				<a href="#wrap" class="btn" data-toggle="tooltip" title="" data-original-title="Back to top">
+					<img src="../img/icon_anchor_16x16.png" alt="anchor">
+				</a>
+			</p>
+		</div>
+	</footer>
+
+	<!-- 
+		LOAD JAVASCRIPT LIBRARIES
+		================================================================== -->
+    <script src="../js/jquery-1.10.2.js"></script>
+    <script src="../js/bootstrap.js"></script>
+	
+	<!-- Current page specific local scripts -->
+	<script type='text/javascript'>
+	// Animate clouds in background
+	(function($) {
+		        var x = 0;
+		        var y = 0;
+				//
+		        var clouds = $("#clouds");
+				// set initial banner background position
+		        clouds.css('backgroundPosition', x + 'px' + ' ' + y + 'px');
+		 		// scroll background position every 100 milliseconds
+		        window.setInterval(function() {
+		        	clouds.css("backgroundPosition", x + 'px' + ' ' + y + 'px');
+		            //y--; //if you need to scroll image vertically - comment x and uncomment y
+		            x--; //if you need to scroll image horizontally - uncomment x and comment y
+		        }, 100);
+	})(jQuery);
+	</script>
+</body>
+
+</html>
